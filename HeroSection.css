@@ -1,0 +1,89 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: 'Georgia', serif;
+}
+
+/* Hero Section */
+.Hero {
+  display: flex;
+  flex-wrap: wrap; /* ensure responsiveness */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;   /* optional: keep layout centered and constrained */
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+}
+
+/* Left Text Section */
+.arrival-section {
+  flex: 1;
+  padding: 0 30px;
+  min-width: 300px;
+}
+
+.arrival-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.arrival-label .line {
+  width: 30px;
+  height: 1px;
+  background-color: #333;
+  margin-right: 10px;
+}
+
+.arrival-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.arrival-shop {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shop-now {
+  margin-right: 10px;
+}
+
+.arrival-shop .line.short {
+  width: 40px;
+  height: 1px;
+  background-color: #333;
+}
+
+/* Right Image Section */
+.Picture {
+  flex: 1;
+  min-width: 300px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

@@ -1,0 +1,73 @@
+/* Reset and global rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;             /* added to prevent overflow */
+  width: 100%;
+  z-index: 1000;
+  overflow-x: hidden;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+/* Navigation Menu */
+.Nav-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.Nav-menu li {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Nav-menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Nav-menu a:hover {
+  color: #ff5e57;
+}
+
+/* Icons */
+.icons-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  transition: colo
+}
