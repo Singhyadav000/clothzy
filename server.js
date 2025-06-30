@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
-const connectDB = require("./Configs/db"); // make sure it's lowercase: config/db.js
+const connectDB = require("./configs/db"); // make sure it's lowercase: config/db.js
 const authRoutes = require("./routes/authRoutes");
 
 dotenv.config();        // Load .env variables
